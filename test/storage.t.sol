@@ -5,7 +5,7 @@ import "forge-std/Test.sol";
 import "forge-std/console.sol";
 import "../src/storage.sol";
 
-contract BasicOperationsTest is Test {
+contract StorageTest is Test {
   Storage strg;
 
   function setUp() external {
